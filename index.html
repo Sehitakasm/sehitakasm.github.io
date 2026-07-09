@@ -81,7 +81,7 @@
                 Şehit Hamdi Armağan Kaplan<br>Aile Sağlığı Merkezi
             </h2>
             <p class="text-slate-600 sm:text-lg mb-8 max-w-2xl mx-auto" data-key="hero_desc" contenteditable="false">
-                Hekim çalışma saatlerimiz, koruyucu sağlık hizmetlerimiz ve güncel duyurularımızla mahallemizin sağlık ihtiyaçlarında her an yanınızdayız.
+                Hekim çalışma saatlerimiz, koruyucu sağlık hizmetlerimiz ve güncel duyurularımızla Gümüşhacıköy ilçemizin sağlık ihtiyaçlarında her an yanınızdayız.
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
                 <a href="https://www.mhrs.gov.tr" target="_blank" class="inline-flex items-center justify-center gap-2 bg-success hover:bg-emerald-600 text-white font-bold px-8 py-4 rounded-full shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/35 transition-all duration-200 transform hover:-translate-y-0.5 text-base">
@@ -196,118 +196,109 @@
 </section>
     <!-- Kadromuz Bölümü -->
     <section class="bg-bg-light border-y border-slate-200 py-16 px-4">
-        <div class="max-w-7xl mx-auto">
-            <div class="text-center mb-12">
-                <h3 class="text-2xl font-bold text-secondary mb-2" data-key="staff_title" contenteditable="false">Kadromuz</h3>
-                <p class="text-text-muted" data-key="staff_subtitle" contenteditable="false">Sizlere hizmet veren aile hekimlerimiz, hemşirelerimiz ve yardımcı sağlık personelimiz</p>
-                <div class="w-12 h-1 bg-primary mx-auto mt-4 rounded-full"></div>
-            </div>
-            
-            <!-- Doktorlar Grubu -->
-            <div class="mb-10 text-center">
-                <span class="bg-sky-100 text-sky-800 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest" data-key="role_doctors" contenteditable="false">Aile Hekimlerimiz</span>
-            </div>
-            
-            <div class="flex flex-wrap justify-center gap-8 max-w-4xl mx-auto mb-16">
-                <!-- Dr. 1 (Kadın Hekim - Anneniz) -->
-                <div class="bg-white border border-slate-200 rounded-2xl p-6 text-center shadow-sm hover:shadow-md transition-all duration-300 w-full sm:w-[320px]">
-                    <div class="w-24 h-24 bg-rose-50 text-rose-500 rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-white shadow-lg shadow-rose-500/10">
-                        <i class="fa-solid fa-user-doctor text-4xl"></i>
-                    </div>
-                    <h4 class="text-lg font-bold text-secondary" data-key="doc_1_name" contenteditable="false">Dr. Nesrin Pircanoğlu</h4>
-                    <p class="text-primary text-xs font-bold tracking-wider uppercase mt-1 mb-3" data-key="doc_1_title" contenteditable="false">Aile Hekimi (Kadın)</p>
-                    <p class="text-text-muted text-sm mb-5" data-key="doc_1_desc" contenteditable="false"><br></p>
-                    
-                    <!-- İnteraktif Telefon Gösterme Butonu -->
-                    <div class="pt-2 border-t border-slate-100">
-                        <button onclick="togglePhone('doc_1_phone_wrapper')" class="bg-sky-50 text-primary hover:bg-primary hover:text-white font-semibold text-xs px-4 py-2.5 rounded-lg w-full transition-all duration-200 flex items-center justify-center gap-2">
-                            <i class="fa-solid fa-phone"></i>
-                            <span data-key="doc_1_phone_btn" contenteditable="false">Doktoru Ara / Telefonu Göster</span>
-                        </button>
-                        <div id="doc_1_phone_wrapper" class="hidden reveal-animation mt-3 py-2 bg-slate-50 border border-slate-100 rounded-lg">
-                            <a href="tel:03581112233" class="text-primary font-bold text-sm block hover:underline" data-key="doc_1_tel_num" contenteditable="false">0505 557 46 95</a>
-                            <span class="text-[10px] text-text-muted" data-key="doc_1_tel_note" contenteditable="false">Poliklinik saatlerinde arayınız</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Dr. 2 (Erkek Hekim) -->
-                <div class="bg-white border border-slate-200 rounded-2xl p-6 text-center shadow-sm hover:shadow-md transition-all duration-300 w-full sm:w-[320px]">
-                    <div class="w-24 h-24 bg-sky-50 text-primary rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-white shadow-lg shadow-sky-500/10">
-                        <i class="fa-solid fa-user-doctor text-4xl"></i>
-                    </div>
-                    <h4 class="text-lg font-bold text-secondary" data-key="doc_2_name" contenteditable="false">Dr. Alper Şimşek</h4>
-                    <p class="text-primary text-xs font-bold tracking-wider uppercase mt-1 mb-3" data-key="doc_2_title" contenteditable="false">Aile Hekimi (Erkek)</p>
-                    <p class="text-text-muted text-sm mb-5" data-key="doc_2_desc" contenteditable="false"><br></p>
-                    
-                    <!-- İnteraktif Telefon Gösterme Butonu -->
-                    <div class="pt-2 border-t border-slate-100">
-                        <button onclick="togglePhone('doc_2_phone_wrapper')" class="bg-sky-50 text-primary hover:bg-primary hover:text-white font-semibold text-xs px-4 py-2.5 rounded-lg w-full transition-all duration-200 flex items-center justify-center gap-2">
-                            <i class="fa-solid fa-phone"></i>
-                            <span data-key="doc_2_phone_btn" contenteditable="false">Doktoru Ara / Telefonu Göster</span>
-                        </button>
-                        <div id="doc_2_phone_wrapper" class="hidden reveal-animation mt-3 py-2 bg-slate-50 border border-slate-100 rounded-lg">
-                            <a href="tel:03582223344" class="text-primary font-bold text-sm block hover:underline" data-key="doc_2_tel_num" contenteditable="false">0505 266 52 30</a>
-                            <span class="text-[10px] text-text-muted" data-key="doc_2_tel_note" contenteditable="false">Poliklinik saatlerinde arayınız</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Hemşireler Grubu -->
-            <div class="mb-10 text-center">
-                <span class="bg-purple-100 text-purple-800 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest" data-key="role_nurses" contenteditable="false">Hemşirelerimiz &amp; Ebelerimiz</span>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-16">
-                <!-- Hemşire 1 -->
-                <div class="bg-white border border-slate-200 rounded-2xl p-6 text-center shadow-sm">
-                    <div class="w-20 h-20 bg-purple-50 text-purple-500 rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-white shadow-md">
-                        <i class="fa-solid fa-user-nurse text-3xl"></i>
-                    </div>
-                    <h4 class="font-bold text-secondary text-base" data-key="nurse_1_name" contenteditable="false">Mehtap Pişkin</h4>
-                    <p class="text-purple-600 text-xs font-bold tracking-wider uppercase mt-1 mb-2" data-key="nurse_1_title" contenteditable="false">Hemşire</p>
-                    <p class="text-text-muted text-xs" data-key="nurse_1_desc" contenteditable="false">Aşı uygulamaları, gebe izlemleri, bebek izlem süreçleri ve periyodik pansuman hizmetleri.</p>
-                </div>
-                <!-- Hemşire 2 -->
-                <div class="bg-white border border-slate-200 rounded-2xl p-6 text-center shadow-sm">
-                    <div class="w-20 h-20 bg-purple-50 text-purple-500 rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-white shadow-md">
-                        <i class="fa-solid fa-user-nurse text-3xl"></i>
-                    </div>
-                    <h4 class="font-bold text-secondary text-base" data-key="nurse_2_name" contenteditable="false">Didem Yılmaz Fedakar</h4>
-                    <p class="text-purple-600 text-xs font-bold tracking-wider uppercase mt-1 mb-2" data-key="nurse_2_title" contenteditable="false"><span style="letter-spacing: 0.6px;">Hemşire</span></p>
-                    <p class="text-text-muted text-xs" data-key="nurse_2_desc" contenteditable="false">Laboratuvar, enjeksiyon ve pansuman hizmetleri.</p>
-                </div>
-                <!-- Hemşire 3 -->
-                <div class="bg-white border border-slate-200 rounded-2xl p-6 text-center shadow-sm">
-                    <div class="w-20 h-20 bg-purple-50 text-purple-500 rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-white shadow-md">
-                        <i class="fa-solid fa-user-nurse text-3xl"></i>
-                    </div>
-                    <h4 class="font-bold text-secondary text-base" data-key="nurse_3_name" contenteditable="false">Güleycan Başaran Zeytünlü</h4>
-                    <p class="text-purple-600 text-xs font-bold tracking-wider uppercase mt-1 mb-2" data-key="nurse_3_title" contenteditable="false"><span style="letter-spacing: 0.6px;">Hemşire</span></p>
-                    <p class="text-text-muted text-xs" data-key="nurse_3_desc" contenteditable="false">Laboratuvar, enjeksiyon ve pansuman hizmetleri.</p>
-                </div>
-            </div>
-
-            <!-- Personel Grubu -->
-            <div class="mb-10 text-center">
-                <span class="bg-amber-100 text-amber-800 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest" data-key="role_staff" contenteditable="false">Destek &amp; Yardımcı Kadromuz</span>
-            </div>
-            
-            <div class="flex flex-wrap justify-center gap-6 max-w-3xl mx-auto">
-                <!-- Personel 1 -->
-                <div class="bg-white border border-slate-200 rounded-2xl p-6 text-center shadow-sm w-full sm:w-[280px]">
-                    <div class="w-16 h-16 bg-amber-50 text-amber-500 rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-white shadow-md">
-                        <i class="fa-solid fa-handshake-angle text-2xl"></i>
-                    </div>
-                    <h4 class="font-bold text-secondary text-base" data-key="staff_1_name" contenteditable="false">Satılmış Kasırka</h4>
-                    <p class="text-amber-600 text-xs font-bold tracking-wider uppercase mt-1 mb-2" data-key="staff_1_title" contenteditable="false">Destek Hizmetleri</p>
-                    <p class="text-text-muted text-xs" data-key="staff_1_desc" contenteditable="false">Merkezimizin iç düzeni, hijyen çalışmaları ve genel lojistik destek.</p>
-                </div>
-            </div>
-
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-12">
+            <h3 class="text-2xl font-bold text-secondary mb-2" data-key="staff_title" contenteditable="false">Kadromuz</h3>
+            <p class="text-text-muted" data-key="staff_subtitle" contenteditable="false">Sizlere hizmet veren aile hekimlerimiz, hemşirelerimiz ve yardımcı sağlık personelimiz</p>
+            <div class="w-12 h-1 bg-primary mx-auto mt-4 rounded-full"></div>
         </div>
-    </section>
+        
+        <div class="mb-10 text-center">
+            <span class="bg-sky-100 text-sky-800 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest" data-key="role_doctors" contenteditable="false">Aile Hekimlerimiz</span>
+        </div>
+        
+        <div class="flex flex-wrap justify-center gap-8 max-w-4xl mx-auto mb-16">
+            <div class="bg-white border border-slate-200 rounded-2xl p-6 text-center shadow-sm hover:shadow-md transition-all duration-300 w-full sm:w-[320px] group">
+                <div class="w-24 h-24 flex items-center justify-center mx-auto mb-4 transition-transform duration-500 group-hover:scale-110">
+                    <img src="3d-doktor-kadin.png" alt="Dr. Nesrin Pircanoğlu" class="w-full h-full object-contain filter drop-shadow-[0_8px_16px_rgba(244,63,94,0.12)]">
+                </div>
+                <h4 class="text-lg font-bold text-secondary" data-key="doc_1_name" contenteditable="false">Dr. Nesrin Pircanoğlu</h4>
+                <p class="text-primary text-xs font-bold tracking-wider uppercase mt-1 mb-3" data-key="doc_1_title" contenteditable="false">Aile Hekimi (Kadın)</p>
+                <p class="text-text-muted text-sm mb-5" data-key="doc_1_desc" contenteditable="false"><br></p>
+                
+                <div class="pt-2 border-t border-slate-100">
+                    <button onclick="togglePhone('doc_1_phone_wrapper')" class="bg-sky-50 text-primary hover:bg-primary hover:text-white font-semibold text-xs px-4 py-2.5 rounded-lg w-full transition-all duration-200 flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <span data-key="doc_1_phone_btn" contenteditable="false">Doktoru Ara / Telefonu Göster</span>
+                    </button>
+                    <div id="doc_1_phone_wrapper" class="hidden reveal-animation mt-3 py-2 bg-slate-50 border border-slate-100 rounded-lg">
+                        <a href="tel:05055574695" class="text-primary font-bold text-sm block hover:underline" data-key="doc_1_tel_num" contenteditable="false">0505 557 46 95</a>
+                        <span class="text-[10px] text-text-muted" data-key="doc_1_tel_note" contenteditable="false">Poliklinik saatlerinde arayınız</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 rounded-2xl p-6 text-center shadow-sm hover:shadow-md transition-all duration-300 w-full sm:w-[320px] group">
+                <div class="w-24 h-24 flex items-center justify-center mx-auto mb-4 transition-transform duration-500 group-hover:scale-110">
+                    <img src="3d-doktor-erkek.png" alt="Dr. Alper Şimşek" class="w-full h-full object-contain filter drop-shadow-[0_8px_16px_rgba(14,165,233,0.12)]">
+                </div>
+                <h4 class="text-lg font-bold text-secondary" data-key="doc_2_name" contenteditable="false">Dr. Alper Şimşek</h4>
+                <p class="text-primary text-xs font-bold tracking-wider uppercase mt-1 mb-3" data-key="doc_2_title" contenteditable="false">Aile Hekimi (Erkek)</p>
+                <p class="text-text-muted text-sm mb-5" data-key="doc_2_desc" contenteditable="false"><br></p>
+                
+                <div class="pt-2 border-t border-slate-100">
+                    <button onclick="togglePhone('doc_2_phone_wrapper')" class="bg-sky-50 text-primary hover:bg-primary hover:text-white font-semibold text-xs px-4 py-2.5 rounded-lg w-full transition-all duration-200 flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <span data-key="doc_2_phone_btn" contenteditable="false">Doktoru Ara / Telefonu Göster</span>
+                    </button>
+                    <div id="doc_2_phone_wrapper" class="hidden reveal-animation mt-3 py-2 bg-slate-50 border border-slate-100 rounded-lg">
+                        <a href="tel:05052665230" class="text-primary font-bold text-sm block hover:underline" data-key="doc_2_tel_num" contenteditable="false">0505 266 52 30</a>
+                        <span class="text-[10px] text-text-muted" data-key="doc_2_tel_note" contenteditable="false">Poliklinik saatlerinde arayınız</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-10 text-center">
+            <span class="bg-purple-100 text-purple-800 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest" data-key="role_nurses" contenteditable="false">Hemşirelerimiz &amp; Ebelerimiz</span>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-16">
+            <div class="bg-white border border-slate-200 rounded-2xl p-6 text-center shadow-sm hover:shadow-md transition-all duration-300 group">
+                <div class="w-20 h-20 flex items-center justify-center mx-auto mb-4 transition-transform duration-500 group-hover:scale-110">
+                    <img src="3d-hemsire.png" alt="Mehtap Pişkin" class="w-full h-full object-contain filter drop-shadow-[0_6px_12px_rgba(147,51,234,0.1)]">
+                </div>
+                <h4 class="font-bold text-secondary text-base" data-key="nurse_1_name" contenteditable="false">Mehtap Pişkin</h4>
+                <p class="text-purple-600 text-xs font-bold tracking-wider uppercase mt-1 mb-2" data-key="nurse_1_title" contenteditable="false">Hemşire</p>
+                <p class="text-text-muted text-xs" data-key="nurse_1_desc" contenteditable="false">Aşı uygulamaları, gebe izlemleri, bebek izlem süreçleri ve periyodik pansuman hizmetleri.</p>
+            </div>
+
+            <div class="bg-white border border-slate-200 rounded-2xl p-6 text-center shadow-sm hover:shadow-md transition-all duration-300 group">
+                <div class="w-20 h-20 flex items-center justify-center mx-auto mb-4 transition-transform duration-500 group-hover:scale-110">
+                    <img src="3d-hemsirecik.png" alt="Didem Yılmaz Fedakar" class="w-full h-full object-contain filter drop-shadow-[0_6px_12px_rgba(147,51,234,0.1)]">
+                </div>
+                <h4 class="font-bold text-secondary text-base" data-key="nurse_2_name" contenteditable="false">Didem Yılmaz Fedakar</h4>
+                <p class="text-purple-600 text-xs font-bold tracking-wider uppercase mt-1 mb-2" data-key="nurse_2_title" contenteditable="false"><span style="letter-spacing: 0.6px;">Hemşire</span></p>
+                <p class="text-text-muted text-xs" data-key="nurse_2_desc" contenteditable="false">Laboratuvar hizmetleri, rutin enjeksiyon ve pansuman işlemleri.</p>
+            </div>
+
+            <div class="bg-white border border-slate-200 rounded-2xl p-6 text-center shadow-sm hover:shadow-md transition-all duration-300 group">
+                <div class="w-20 h-20 flex items-center justify-center mx-auto mb-4 transition-transform duration-500 group-hover:scale-110">
+                    <img src="3d-hemsirecik.png" alt="Güleycan Başaran Zeytünlü" class="w-full h-full object-contain filter drop-shadow-[0_6px_12px_rgba(147,51,234,0.1)]">
+                </div>
+                <h4 class="font-bold text-secondary text-base" data-key="nurse_3_name" contenteditable="false">Güleycan Başaran Zeytünlü</h4>
+                <p class="text-purple-600 text-xs font-bold tracking-wider uppercase mt-1 mb-2" data-key="nurse_3_title" contenteditable="false"><span style="letter-spacing: 0.6px;">Hemşire</span></p>
+                <p class="text-text-muted text-xs" data-key="nurse_3_desc" contenteditable="false">Laboratuvar hizmetleri, rutin enjeksiyon ve pansuman işlemleri.</p>
+            </div>
+        </div>
+
+        <div class="mb-10 text-center">
+            <span class="bg-amber-100 text-amber-800 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest" data-key="role_staff" contenteditable="false">Destek &amp; Yardımcı Kadromuz</span>
+        </div>
+        
+        <div class="flex flex-wrap justify-center gap-6 max-w-3xl mx-auto">
+            <div class="bg-white border border-slate-200 rounded-2xl p-6 text-center shadow-sm hover:shadow-md transition-all duration-300 w-full sm:w-[280px] group">
+                <div class="w-16 h-16 flex items-center justify-center mx-auto mb-4 transition-transform duration-500 group-hover:scale-110">
+                    <img src="3d-personel.png" alt="Satılmış Kasırka" class="w-full h-full object-contain filter drop-shadow-[0_4px_10px_rgba(217,119,6,0.1)]">
+                </div>
+                <h4 class="font-bold text-secondary text-base" data-key="staff_1_name" contenteditable="false">Satılmış Kasırka</h4>
+                <p class="text-amber-600 text-xs font-bold tracking-wider uppercase mt-1 mb-2" data-key="staff_1_title" contenteditable="false">Destek Hizmetleri</p>
+                <p class="text-text-muted text-xs" data-key="staff_1_desc" contenteditable="false">Merkezimizin iç düzeni, hijyen çalışmaları ve genel lojistik destek.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
 
     <!-- Çalışma Saatleri Bölümü -->
     <section class="max-w-3xl mx-auto px-4 py-16">
